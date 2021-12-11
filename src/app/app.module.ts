@@ -9,6 +9,7 @@ import { CoursesComponent } from './courses.component';
 import { CourseComponent } from './course/course.component';
 import { FormsModule } from '@angular/forms';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { InputBarCasePipe } from './input-bar-case.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FavoriteComponent } from './favorite/favorite.component';
     CoursesComponent,
     CourseComponent,
     SummaryPipe,
-    FavoriteComponent
+    FavoriteComponent,
+    InputBarCasePipe
   ],
   imports: [
     BrowserModule,
